@@ -1,0 +1,17 @@
+
+{
+    const d = new Date("06/01/2022");
+console.log(d);
+}//short date//
+
+{
+const d = new Date("January 06 2022");
+console.log(d);
+}//long dates//
+
+{let msec = Date.parse("December 31, 2021");
+console.log(msec);}
+
+{let msec = Date.parse("01, 5, 2022");
+const d = new Date(msec);
+console.log(d);}
